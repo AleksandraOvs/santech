@@ -1,6 +1,6 @@
 <?php
     /**
-     * Tamplte name: test page
+     * Template name: test page
      */
 ?>
 
