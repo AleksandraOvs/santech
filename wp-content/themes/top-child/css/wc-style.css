@@ -1,0 +1,29 @@
+p.woocommerce-result-count, .woocommerce-ordering, .thunk-list-grid-switcher {
+    display: none;
+}
+
+.single_add_to_cart_button.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce button.button, .woocommerce input.button, .woocommerce .return-to-shop a.button {
+    background: #ff0052;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-weight: 500;
+    line-height: 36px;
+    margin-right: 15px;
+    text-align: center;
+    padding: 10px 30px;
+    min-width: 110px;
+    border-radius: 3px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a.button.wc-forward:hover {
+    background: transparent !important;
+    color: #000 !important;
+}
