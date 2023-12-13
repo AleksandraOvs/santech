@@ -23,3 +23,18 @@ function site_scripts(){
 
 }
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
+
+//шорткод для отзывов
+function feedback_shortcode( $atts ) {
+    get_template_part('template-parts/feedback');
+    }
+add_shortcode( 'feedback', 'feedback_shortcode');
+
+add_filter( 'add_to_cart_text', 'woo_custom_single_add_to_cart_text' );                // < 2.1
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_single_add_to_cart_text' );  // 2.1 +
+  
+function woo_custom_single_add_to_cart_text() {
+  
+    return __( 'Заказать', 'woocommerce' );
+  
+}

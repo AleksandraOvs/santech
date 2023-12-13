@@ -155,3 +155,80 @@ span.swiper-pagination-bullet {
 .slider-content__buttons a:not(:last-child) {
     margin-right: 20px;
 }
+
+.swiper.slider-feedback.swiper-initialized.swiper-vertical.swiper-backface-hidden {
+    height: 650px;
+    padding: 5px 20px;
+    overflow: hidden;
+}
+
+.feedback-slide__inner {
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.feedback-slide__inner {
+    height: 100%;
+}
+
+.swiper-slide.feedback-slide {
+    width: 85%;
+    margin: 0 auto;
+    transition: all .3s linear;
+}
+
+.feedback-slide.swiper-slide-active {
+    width: 100%;
+    transition: all .3s linear;
+}
+/* 
+.fb-slider__button-prev {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    z-index: 2;
+    transform: rotate(90deg);
+} */
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+   position:relative !important;
+}
+
+.slider-fdb__controls {
+    position: absolute;
+    top: 35%;
+    right:0;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+    right: unset !important;
+    top: unset !important;
+    transform: none !important;
+}
+
+.fb-slider__button-prev, .fb-slider__button-next {
+    position: relative;
+    background: #21337b;
+    padding:10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.fb-slider__button-prev svg, .fb-slider__button-next svg{
+    width:100%;
+    height:100%;
+    transform: rotate(90deg);
+    object-fit: contain;
+    object-position: center;
+}
+
+.fb-slider__button-prev svg path , .fb-slider__button-next svg path {
+    fill: #fff;
+}

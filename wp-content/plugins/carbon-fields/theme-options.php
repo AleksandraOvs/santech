@@ -77,7 +77,6 @@ Container::make('theme_options', 'Контакты')
             Field::make('rich_text', 'crb_fb_text', 'текст отзыва')
             ->set_width(70)
         )),
-
         ));
 
         Container::make('theme_options', 'Popup окна')
