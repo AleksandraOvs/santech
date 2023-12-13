@@ -174,7 +174,6 @@ span.swiper-pagination-bullet {
 }
 
 .swiper-slide.feedback-slide {
-    width: 85%;
     margin: 0 auto;
     transition: all .3s linear;
 }
@@ -214,12 +213,12 @@ span.swiper-pagination-bullet {
 
 .fb-slider__button-prev, .fb-slider__button-next {
     position: relative;
-    background: #21337b;
+    /* background: #21337b; */
     padding:10px;
     width: 35px;
     height: 35px;
     border-radius: 100%;
-}
+} 
 
 .fb-slider__button-prev svg, .fb-slider__button-next svg{
     width:100%;
@@ -228,7 +227,7 @@ span.swiper-pagination-bullet {
     object-fit: contain;
     object-position: center;
 }
-
+/* 
 .fb-slider__button-prev svg path , .fb-slider__button-next svg path {
     fill: #fff;
-}
+} */

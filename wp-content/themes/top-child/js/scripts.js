@@ -28,10 +28,10 @@ const swiper = new Swiper('.hero-slider', {
     spaceBetween: 15,
     draggable: true,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false,
+    // },
     arrows: true,
     loop: true,
     //centeredSlides: true,
