@@ -257,7 +257,7 @@ h4.feedback-slide__inner__name {
 }
 
 .swiper-slide.feedback-slide {
-    width: 95%;
+    /* width: 95%; */
     margin: 0 auto;
     background: #fff;
     padding: 30px;
