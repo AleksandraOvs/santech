@@ -297,6 +297,14 @@ h4.feedback-slide__inner__name {
     font-size: 14px;
 }
 
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
