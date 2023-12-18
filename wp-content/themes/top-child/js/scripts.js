@@ -47,7 +47,7 @@ const swiper = new Swiper('.hero-slider', {
     },
     breakpoints: {
         768: {
-          direction: 'vertical', // вертикальная прокрутка
+         // direction: 'vertical', // вертикальная прокрутка
           slidesPerView: 3, // показывать по 3 превью
         },
     }
