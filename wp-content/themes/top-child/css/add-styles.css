@@ -165,7 +165,7 @@ span.swiper-pagination-bullet {
 }
 
 .swiper.slider-feedback.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-    height: 650px;
+    height: 850px;
     overflow: hidden;
 }
 /* 
@@ -189,6 +189,10 @@ span.swiper-pagination-bullet {
 .feedback-slide.swiper-slide-active {
     width: 100%;
     transition: all .3s linear;
+}
+
+.feedback-slide__inner__text {
+    font-size: 16px;
 }
 /* 
 .fb-slider__button-prev {
