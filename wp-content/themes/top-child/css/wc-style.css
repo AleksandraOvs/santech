@@ -320,5 +320,5 @@ ul.products.columns-3 {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     line-height: 21px;
-    max-height: 21px;
+   height: auto !important;
 }
