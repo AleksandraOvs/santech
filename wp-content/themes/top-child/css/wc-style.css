@@ -246,6 +246,11 @@ ul.products.columns-3 {
     color: #fff !important;
 }
 
+.thunk-product:hover .thunk-product-hover {
+    box-shadow: none !important;
+    border-radius: 20px !important;
+}
+
 
 @media (max-width: 768px){
     ul.products.columns-3 {
