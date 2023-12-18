@@ -314,7 +314,7 @@ ul.products.columns-3 {
 }
 
 .thunk-woo-product-list .woocommerce-loop-product__title {
-    overflow:auto !important;
+    overflow: visible !important;
     text-overflow:unset !important;
     display: -webkit-box;
     -webkit-box-orient: vertical;
