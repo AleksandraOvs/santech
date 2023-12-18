@@ -322,6 +322,8 @@ input.wpcf7-form-control.wpcf7-submit {
 
 input.wpcf7-form-control.wpcf7-submit:hover{
     background: #b51921;
+    color: #fff;
+    transition: all .3s linear;
 }
 
 div#popup-callback {
