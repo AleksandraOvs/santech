@@ -41,10 +41,10 @@ const swiper = new Swiper('.hero-slider', {
     clickable: true,
     },
     // навигация
-    navigation: {
-    nextEl: '.fb-slider__button-next',
-    prevEl: '.fb-slider__button-prev',
-    },
+   // navigation: {
+   // nextEl: '.fb-slider__button-next',
+   // prevEl: '.fb-slider__button-prev',
+   // },
     breakpoints: {
         768: {
          // direction: 'vertical', // вертикальная прокрутка
