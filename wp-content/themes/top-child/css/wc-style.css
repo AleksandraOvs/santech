@@ -325,3 +325,9 @@ ul.products.columns-3 {
     line-height: 21px;
    height: auto !important;
 }
+
+.thunk-product:hover .thunk-product-hover {
+    opacity: 1;
+    background: transparent !important;
+    border-color: transparent !important;
+}
