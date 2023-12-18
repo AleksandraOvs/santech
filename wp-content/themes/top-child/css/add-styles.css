@@ -247,6 +247,15 @@ span.swiper-pagination-bullet {
     fill: #21337b;
 }
 
+.swiper-slide.feedback-slide {
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+
 .thunk-product:hover .thunk-product-hover::before {
     position: absolute;
     content: '';
