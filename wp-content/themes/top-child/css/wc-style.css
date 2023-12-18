@@ -331,3 +331,10 @@ ul.products.columns-3 {
     background: transparent !important;
     border-color: transparent !important;
 }
+
+.woocommerce ul.products li.product.thunk-woo-product-list .price{
+    color: #21337b;
+    font-size: 24px;
+    display: block;
+    margin-top: 30px;
+}
