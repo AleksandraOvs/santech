@@ -119,24 +119,28 @@ h1 {
     text-transform: uppercase;
     color: #21337b;
  }
-h2 {
-  font-size: 22px;
-  line-height:35px;
- }
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
 h3 {
-  font-size: 20px;
+  font-size: 28px;
   line-height:32px;
  }
 h4 {
-  font-size: 18px;
+  font-size: 26px;
   line-height:29px;
 }
 h5 {
-  font-size: 17px;
+  font-size: 24px;
   line-height:27px;
  }
  h6 {
-  font-size: 16px;
+  font-size: 20px;
   line-height:25px;
 }
 a {
@@ -7822,35 +7826,35 @@ margin:0;
   
 
  /*typography*/
-h1 {
-  font-size: 22px;
+/* h1 {
+  font-size: 28px;
   line-height:36px;
- }
+ } 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
   line-height:33px;
  }
 h3 {
-  font-size: 18px;
+  font-size: 24px;
   line-height:29px;
  }
 h4 {
-  font-size: 16px;
+  font-size: 20px;
   line-height:27px;
 }
 h5 {
-  font-size: 16px;
+  font-size: 18px;
   line-height:25px;
  }
  h6 {
-  font-size: 15px;
+  font-size: 16px;
   line-height:23px;
-}
+}*/
 .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
    width: 49.5%;
    float: left;
    clear: both;
-   margin: 0 0 0.5em;
+   margin: 0 0 2em;
 }
 /*single page*/
 .page-head .breadcrumb-trail.breadcrumbs {
@@ -8523,10 +8527,10 @@ select {
 }
 
 /*blog page*/
-h2 {
+/* h2 {
     font-size: 15px;
     line-height: 21px;
-}
+} */
 
 .entry-content p {
     margin-bottom: 10px;
@@ -8590,10 +8594,10 @@ line-height: 23px!important;
     margin-bottom:15px;
     margin-top:7.5px;
 }
-h1 {
+/* h1 {
     font-size: 20px;
     line-height:26px;
-}
+} */
 body {
     font-size: 12px;
 }
@@ -8872,6 +8876,8 @@ bottom: 125px;
 }
 
 @media screen and (max-width:550px){
+
+
  .sidebar-content-area {
     width: 100%;
     max-width: 100%;

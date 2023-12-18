@@ -244,3 +244,39 @@ ul.products.columns-3 {
     font-size: 12px;
     line-height: 19px;
 }
+
+
+@media (max-width: 768px){
+    ul.products.columns-3 {
+        display: block;
+    }
+    .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+        width: 49.5%;
+        float: left;
+        clear: both;
+        margin: 0 0 2em;
+    }
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    line-height: 21px;
+    font-size: 20px;
+    font-family: "Lato-Bold", sans-serif;
+    color: #111;
+    padding: 0;
+    text-align: center;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+.thunk-product {
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background: #fff;
+    -webkit-transition: all .7s ease 0s;
+    -moz-transition: all .7s ease 0s;
+    -ms-transition: all .7s ease 0s;
+    transition: all .7s ease 0s;
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+}

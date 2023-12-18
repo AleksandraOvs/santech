@@ -22,8 +22,8 @@ const swiper = new Swiper('.hero-slider', {
   });
 
   const slider_one = new Swiper('.slider-feedback', {
-    direction: 'vertical', // вертикальная прокрутка
-	  slidesPerView: 3, // показывать по 3 превью
+    direction: 'horizontal', // вертикальная прокрутка
+	  slidesPerView: 1, // показывать по 3 превью
     grabCursor: true,
     spaceBetween: 15,
     draggable: true,
@@ -46,11 +46,9 @@ const swiper = new Swiper('.hero-slider', {
     prevEl: '.fb-slider__button-prev',
     },
     breakpoints: {
-        1024: {
-            slidesPerView: 3,
+        768: {
+          direction: 'vertical', // вертикальная прокрутка
+          slidesPerView: 3, // показывать по 3 превью
         },
-        768:{
-            slidesPerView: 2,
-        }
     }
     });
