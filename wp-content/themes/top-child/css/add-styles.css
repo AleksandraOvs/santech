@@ -168,6 +168,10 @@ span.swiper-pagination-bullet {
     height: 850px;
     overflow: hidden;
 }
+
+h4.feedback-slide__inner__name {
+    margin-bottom: 15px;
+}
 /* 
 .feedback-slide.swiper-slide-active .feedback-slide__inner {
     border: 2px solid #343245;
