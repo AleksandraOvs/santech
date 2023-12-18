@@ -323,6 +323,14 @@ input.wpcf7-form-control.wpcf7-submit:hover{
     background: #b51921;
 }
 
+div#popup-callback {
+    background: #21337b;
+}
+
+div#popup-callback h3 {
+    color: #fff;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
