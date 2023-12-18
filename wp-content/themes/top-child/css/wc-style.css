@@ -297,7 +297,9 @@ ul.products.columns-3 {
 }
 
 .thunk-product {
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid transparent;
     background: #fff;
