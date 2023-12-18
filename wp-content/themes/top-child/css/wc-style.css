@@ -312,3 +312,13 @@ ul.products.columns-3 {
     line-height: 21px;
     font-size: 18px !important;
 }
+
+.thunk-woo-product-list .woocommerce-loop-product__title {
+    overflow:auto !important;
+    text-overflow:unset !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 21px;
+    max-height: 21px;
+}
