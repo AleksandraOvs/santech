@@ -121,8 +121,8 @@ h1 {
  }
   h2 {
     font-size: 32px;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    /* margin-bottom: 30px;
+    margin-top: 20px; */
     font-weight: 600;
     line-height: 35px;
 }
@@ -4105,7 +4105,7 @@ display:none;
 }
 .thunk-breadcrumb li{
   display: inline;
-  font-size: 11px;
+  font-size: 16px;
 }
 /* Add a slash symbol (/) before/behind each list item */
 .thunk-breadcrumb li+li:before{

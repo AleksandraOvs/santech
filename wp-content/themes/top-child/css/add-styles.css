@@ -284,6 +284,11 @@ span.swiper-pagination-bullet {
     z-index: 15;
 }
 
+.thunk-breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
