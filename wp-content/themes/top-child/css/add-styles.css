@@ -332,6 +332,10 @@ div#popup-callback h3 {
     color: #fff;
 }
 
+div#popup-callback button svg path {
+    fill: #fff;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
