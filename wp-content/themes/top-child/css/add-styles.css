@@ -309,6 +309,14 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-input::plac
     color: rgba(255,255,255,.5);
 }
 
+input.wpcf7-form-control.wpcf7-submit {
+    padding: 15px 50px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
