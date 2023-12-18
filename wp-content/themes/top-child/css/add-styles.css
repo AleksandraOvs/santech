@@ -305,6 +305,10 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-input {
     color: #fff;
 }
 
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-input::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
