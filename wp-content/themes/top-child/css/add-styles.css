@@ -247,6 +247,33 @@ span.swiper-pagination-bullet {
     fill: #21337b;
 }
 
+.thunk-product:hover .thunk-product-hover::before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 11px;
+    background-color: transparent !important;
+}
+
+.thunk-product:hover .thunk-product-hover {
+    box-shadow: none;
+}
+
+.thunk-product:hover .thunk-product-hover {
+    opacity: 1;
+    border-color: transparent;
+    padding-bottom: 0 !important;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    top: 100%;
+    visibility: visible;
+    z-index: 15;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
