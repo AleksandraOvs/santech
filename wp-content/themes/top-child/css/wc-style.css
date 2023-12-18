@@ -307,3 +307,8 @@ ul.products.columns-3 {
     transition: all .7s ease 0s;
     box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    line-height: 21px;
+    font-size: 18px !important;
+}
