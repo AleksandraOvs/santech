@@ -251,6 +251,27 @@ ul.products.columns-3 {
     border-radius: 20px !important;
 }
 
+.woocommerce ul.products li.product .add_to_cart_button:after {
+    border-radius: 3px;
+    font-family: th-icon;
+    content: '\e919';
+    font-size: 18px !important;
+    line-height: initial;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: initial;
+    transform: translateY(-50%);
+    left: 15px !important;
+    text-align: center;
+    z-index: 9;
+    color: #fff !important;
+    -webkit-transition: all .25s ease 0s;
+    -moz-transition: all .25s ease 0s;
+    -ms-transition: all .25s ease 0s;
+    transition: all .25s ease 0s;
+}
+
 
 @media (max-width: 768px){
     ul.products.columns-3 {
