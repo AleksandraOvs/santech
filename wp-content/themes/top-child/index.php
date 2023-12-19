@@ -13,12 +13,12 @@
  * @since 1.0.0
  */
 get_header();
-//$top_store_pages_sidebar = top_store_pages_sidebar(); ?>
+$top_store_pages_sidebar = top_store_pages_sidebar(); ?>
 <div id="content" class="page-content blog">
             <div class="content-wrap" >
                 <div class="container">
-                    <div class="main-area <?php //echo esc_attr($top_store_pages_sidebar);?>">
-                         <?php //if($top_store_pages_sidebar !=='no-sidebar' && $top_store_pages_sidebar !=='disable-left-sidebar'){get_sidebar('primary');}?>
+                    <div class="main-area <?php echo esc_attr($top_store_pages_sidebar);?>">
+                         <?php if($top_store_pages_sidebar !=='no-sidebar' && $top_store_pages_sidebar !=='disable-left-sidebar'){get_sidebar('primary');}?>
                         <div id="primary" class="primary-content-area">
                             <div class="primary-content-wrap">
                                 <main id="main" class="site-main" role="main">

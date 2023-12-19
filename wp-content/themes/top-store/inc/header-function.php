@@ -28,7 +28,8 @@ if($top_store_above_header_layout!=='abv-none'):?>
         <?php top_store_top_header_conetnt_col2($top_store_above_header_col2_set,$top_store_menu_open); ?>
       </div>
       <div class="top-header-col3">
-        <?php top_store_top_header_conetnt_col3($top_store_above_header_col3_set,$top_store_menu_open); ?>
+        rerererererere
+        <?php //top_store_top_header_conetnt_col3($top_store_above_header_col3_set,$top_store_menu_open); ?>
       </div>
     </div>
     <?php } ?>

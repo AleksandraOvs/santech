@@ -1,0 +1,4 @@
+2023-12-19T19:30:07+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OSPanel\domains\santech12\wp-content\plugins\elementor\includes\widgets\counter.php на строке 4
+
+2023-12-19T19:36:03+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OSPanel\domains\santech12\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php на строке 12
+

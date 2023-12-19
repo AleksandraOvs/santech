@@ -25,10 +25,11 @@ if($top_store_above_header_layout!=='abv-none'):?>
         <?php top_store_top_header_conetnt_col1($top_store_above_header_col1_set,$top_store_menu_open); ?>
       </div>
       <div class="top-header-col2">
-        <?php top_store_top_header_conetnt_col2($top_store_above_header_col2_set,$top_store_menu_open); ?>
+        <?php top_store_top_header_conetnt_col3($top_store_above_header_col3_set,$top_store_menu_open); ?>
       </div>
       <div class="top-header-col3">
-        <?php top_store_top_header_conetnt_col3($top_store_above_header_col3_set,$top_store_menu_open); ?>
+        <?php top_store_top_header_conetnt_col2($top_store_above_header_col2_set,$top_store_menu_open); ?>
+        
       </div>
     </div>
     <?php } ?>
@@ -232,11 +233,6 @@ return true;
             
           </div>
           <div class="main-header-col2">
-             <?php  
-                top_store_th_advance_product_search();
-               ?>
-          </div>
-          <div class="main-header-col3">
           <nav>
             <!-- Menu Toggle btn-->
             <div class="menu-toggle">
@@ -267,6 +263,13 @@ return true;
             </div>
           </div>
         </nav>
+
+             <?php  
+                //top_store_th_advance_product_search();
+               ?>
+          </div>
+          <div class="main-header-col3">
+
           </div>
           <?php  } ?>
           </div> <!-- end main-header-bar -->
