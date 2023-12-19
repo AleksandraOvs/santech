@@ -345,11 +345,6 @@ function top_store_below_footer_markup(){ ?>
               );
               ?>
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-              <span class="powered-by-wordpress">
-              <span><?php _e( 'Designed by', 'top-store' ); ?></span>
-              <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'top-store' ) ); ?>" target="_blank">
-                <?php _e( 'Themehunk', 'top-store' ); ?>
-              </a>
             </span>
             </p><!-- .footer-copyright -->
            </div>
