@@ -10,7 +10,7 @@ get_header();
 ?>
 
    <div id="content" class="front">
-			<?php //get_template_part('template-parts/hero') ?>
+			<?php get_template_part('template-parts/hero') ?>
         	<div class="content-wrap" >
         		<?php the_content() ?>
         	</div> <!-- end content-wrap -->

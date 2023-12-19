@@ -198,6 +198,11 @@ h4.feedback-slide__inner__name {
 .feedback-slide__inner__text {
     font-size: 16px;
 }
+
+.fb-slider__inner h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
 /* 
 .fb-slider__button-prev {
     position: absolute;
