@@ -343,6 +343,14 @@ div#popup-callback button svg path {
     fill: #fff;
 }
 
+.main-header-bar.thnk-col-3 {
+    justify-content: space-between !important;
+}
+
+.main-header-bar.thnk-col-3 .main-header-col3 {
+    display: none !important;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
