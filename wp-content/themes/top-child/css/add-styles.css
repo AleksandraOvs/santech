@@ -351,6 +351,16 @@ div#popup-callback button svg path {
     display: none !important;
 }
 
+.top-store-menu, .top-store-menu li {
+    text-align: right;
+}
+
+.lang-item a span {
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
