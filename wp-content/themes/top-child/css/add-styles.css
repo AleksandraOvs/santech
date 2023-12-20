@@ -361,12 +361,27 @@ div#popup-callback button svg path {
     font-weight: 600;
 }
 
+@media screen and (max-width: 1024px){
+.sider.overcenter .sider-inner .top-store-menu li {
+    width: 100%!important;
+    text-align: center;
+}
+}
+
 @media (max-width: 1024px){
     .slider-content {
         width: 100%;
         text-align: center;
     }
 
+    .sider.overcenter .sider-inner ul.top-store-menu li a {
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Lato-Bold', sans-serif;
+        line-height: initial;
+        padding: 10px 0px 10px 0px!important;
+    }
+    
     .slider-content__buttons {
         justify-content: center;
     }
