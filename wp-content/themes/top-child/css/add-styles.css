@@ -376,7 +376,7 @@ li#menu-item-312-uz {
 }
 
 li#menu-item-312-uz:after{
-    content: '&#47;';
+    content: '/';
     /* display: inline; */
     position: absolute;
     top: 0;
