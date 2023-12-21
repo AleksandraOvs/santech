@@ -268,9 +268,16 @@ return true;
                 //top_store_th_advance_product_search();
                ?>
           </div>
-          <div class="main-header-col3">
 
+          <?php if ( is_active_sidebar( 'top-header-widget-col3' ) ){ ?>
+          <div class="main-header-col3">
+          
+	          <ul id="sidebar">
+		          <?php dynamic_sidebar( 'top-header-widget-col3' ); ?>
+	        </ul>
           </div>
+          <?php } ?>
+          
           <?php  } ?>
           </div> <!-- end main-header-bar -->
         </div>

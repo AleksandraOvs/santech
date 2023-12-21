@@ -348,9 +348,9 @@ div#popup-callback button svg path {
     justify-content: space-between !important;
 }
 
-.main-header-bar.thnk-col-3 .main-header-col3 {
+/* .main-header-bar.thnk-col-3 .main-header-col3 {
     display: none !important;
-}
+} */
 
 .top-store-menu, .top-store-menu li {
     text-align: right;
