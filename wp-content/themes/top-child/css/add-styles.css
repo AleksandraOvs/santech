@@ -372,6 +372,10 @@ div#popup-callback button svg path {
     display: flex;
     list-style: none;
 }
+
+.widget_block p {
+    margin: 0;
+}
 /* 
 .widget.widget_polylang ul li:first {
     padding-right: 15px;
