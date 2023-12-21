@@ -375,12 +375,18 @@ li#menu-item-312-uz {
     position: relative;
 }
 
-li#menu-item-312-uz:after {
+li#menu-item-312-uz:after{
     content: '&#47;';
     /* display: inline; */
     position: absolute;
     top: 0;
     right: 0;
+}
+
+ul#top-store-menu li a span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1024px){
