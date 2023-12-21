@@ -373,7 +373,7 @@ div#popup-callback button svg path {
     list-style: none;
 }
 
-.widget_block p {
+#sidebar .widget_block p {
     margin: 0;
 }
 /* 
