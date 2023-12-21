@@ -379,6 +379,8 @@ li#menu-item-312-uz:after{
     content: '/';
     /* display: inline; */
     position: absolute;
+    font-size: 20px;
+    font-weight: 600;
     top: 0;
     right: 0;
 }
