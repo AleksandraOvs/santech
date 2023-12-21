@@ -376,24 +376,29 @@ div#popup-callback button svg path {
 #sidebar .widget_block p {
     margin: 0;
 }
-/* 
-.widget.widget_polylang ul li:first {
+
+.lang-item {
     padding-right: 15px;
     position: relative;
+}
+
+.widget.widget_polylang ul li:first-child {
+    position: relative;
+    padding-right: 20px;
 }
 
 li#menu-item-312-uz {
     position: relative;
 }
 
-li#menu-item-312-uz:after{
+.lang-item-uz:after{
     content: '/';
     position: absolute;
     font-size: 20px;
     font-weight: 600;
     top: 0;
     right: 0;
-} */
+} 
 
 ul#top-store-menu li a span {
     font-size: 20px;
