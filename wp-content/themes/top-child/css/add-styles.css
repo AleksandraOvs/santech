@@ -366,7 +366,14 @@ div#popup-callback button svg path {
     padding: 0;
 }
 
-li#menu-item-312-uz a {
+.widget.widget_polylang ul {
+    margin: 0;
+    margin-left: 15px;
+    display: flex;
+    list-style: none;
+}
+/* 
+.widget.widget_polylang ul li:first {
     padding-right: 15px;
     position: relative;
 }
@@ -377,18 +384,21 @@ li#menu-item-312-uz {
 
 li#menu-item-312-uz:after{
     content: '/';
-    /* display: inline; */
     position: absolute;
     font-size: 20px;
     font-weight: 600;
     top: 0;
     right: 0;
-}
+} */
 
 ul#top-store-menu li a span {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.main-header-col3 #sidebar {
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px){
