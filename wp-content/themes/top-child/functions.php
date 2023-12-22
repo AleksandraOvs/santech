@@ -35,7 +35,9 @@ add_shortcode( 'feedback', 'feedback_shortcode');
 function feedback_shortcode2( $atts ) {
     get_template_part('template-parts/feedback_uz');
     }
-add_shortcode( 'feedback2', 'feedback_shortcode_uz');
+add_shortcode( 'feedback2', 'feedback_shortcode2');
+
+
 
 add_filter( 'add_to_cart_text', 'woo_custom_single_add_to_cart_text' );                // < 2.1
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_single_add_to_cart_text' );  // 2.1 +
