@@ -39,35 +39,35 @@ Container::make('theme_options', 'Контакты')
             )),
         ));
 
-        Container::make('theme_options', 'Первый экран')
-        ->set_page_menu_position( 2 )
-        ->set_icon ('dashicons-cover-image')
-        ->add_fields( array (
-            Field::make('complex', 'crb_slider_items', 'Слайдер первого экрана')
-                 ->add_fields( array(
-                     Field::make('image', 'crb_slider_image', 'Изображение слайда')
-                     ->set_width(33),
-                     Field::make('text', 'crb_slider_head', 'Первый заголовок')
-                     ->set_width(33),
-                     Field::make('text', 'crb_slider_description', 'Описание под заголовком')
-                     ->set_width(33),
-                     Field::make('text', 'crb_slider_but1', 'Название кнопки 1')
-                     ->set_width(25),
-                     Field::make('text', 'crb_slider_but1_link', 'Ссылка кнопки 1')
-                     ->set_width(25),
-                     Field::make('text', 'crb_slider_but2', 'Название кнопки 2')
-                     ->set_width(25),
-                     Field::make('text', 'crb_slider_but2_link', 'Ссылка кнопки 2')
-                     ->set_width(25)
-                   ))
-                 ));
+        // Container::make('theme_options', 'Первый экран')
+        // ->set_page_menu_position( 2 )
+        // ->set_icon ('dashicons-cover-image')
+        // ->add_fields( array (
+        //     Field::make('complex', 'crb_slider_items', 'Слайдер первого экрана')
+        //          ->add_fields( array(
+        //              Field::make('image', 'crb_slider_image', 'Изображение слайда')
+        //              ->set_width(33),
+        //              Field::make('text', 'crb_slider_head', 'Первый заголовок')
+        //              ->set_width(33),
+        //              Field::make('text', 'crb_slider_description', 'Описание под заголовком')
+        //              ->set_width(33),
+        //              Field::make('text', 'crb_slider_but1', 'Название кнопки 1')
+        //              ->set_width(25),
+        //              Field::make('text', 'crb_slider_but1_link', 'Ссылка кнопки 1')
+        //              ->set_width(25),
+        //              Field::make('text', 'crb_slider_but2', 'Название кнопки 2')
+        //              ->set_width(25),
+        //              Field::make('text', 'crb_slider_but2_link', 'Ссылка кнопки 2')
+        //              ->set_width(25)
+        //            ))
+        //          ));
 
     
         Container::make('theme_options', 'Отзывы')
     
         ->set_page_menu_position( 2 )
         ->set_icon ('dashicons-format-status')
-        ->add_fields( array(
+        ->add_tab(__('Отзывы RUS'), array(
         Field::make('complex', 'crb_feedback', 'Отзывы')
         ->add_fields( array(
             Field::make('text', 'crb_fb_name', 'Имя клиента')
@@ -76,8 +76,22 @@ Container::make('theme_options', 'Контакты')
             ->set_width(15),
             Field::make('rich_text', 'crb_fb_text', 'текст отзыва')
             ->set_width(70)
-        )),
+        ))
+        ))
+
+          ->add_tab(__('Отзывы UZ'), array(
+            Field::make('complex', 'crb_feedback_uz', 'Отзывы_UZ')
+            ->add_fields( array(
+                Field::make('text', 'crb_fb_name_uz', 'Имя клиента')
+                ->set_width(15),
+                Field::make('text', 'crb_fb_date_uz', 'Дата отзыва')
+                ->set_width(15),
+                Field::make('rich_text', 'crb_fb_text_uz', 'текст отзыва')
+                ->set_width(70)
+            ))
         ));
+
+      
 
         Container::make('theme_options', 'Popup окна')
     
