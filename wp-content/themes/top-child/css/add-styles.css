@@ -410,6 +410,41 @@ ul#top-store-menu li a span {
     margin: 0;
 }
 
+.arrow-up {
+    display:none;
+    position: fixed;
+    right: 40px;
+    z-index: 3;
+    padding: 5px;
+    border-radius: 5px;
+    border:2px solid rgb(33 51 123 / 95%);
+    background: rgb(33 51 123 / 95%);
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    transition: all .3s linear;
+}
+
+.arrow-up:hover{
+    background: #fff;
+}
+
+.arrow-up:hover svg path{
+    fill: #21337b;
+}
+
+.arrow-up svg {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-up.show{
+    display:block;
+    transition: all .3s linear;
+}
+
+
+
 @media screen and (max-width: 1024px){
 .sider.overcenter .sider-inner .top-store-menu li {
     width: 100%!important;
