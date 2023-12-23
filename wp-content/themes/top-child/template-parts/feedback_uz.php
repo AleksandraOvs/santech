@@ -3,7 +3,7 @@
 ?>
 <!-- <div class="fixed-container"> -->
     <div class="fb-slider__inner">
-        <h2>Шарҳлар</h2>
+        <h2>Фикрлар</h2>
         
 
 <div class="slider-fdb__controls">
