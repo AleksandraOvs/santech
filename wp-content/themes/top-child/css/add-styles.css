@@ -453,6 +453,14 @@ ul#top-store-menu li a span {
 }
 
 @media (max-width: 1024px){
+    ul#top-store-menu li a span {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    
     .slider-content {
         width: 100%;
         text-align: center;
