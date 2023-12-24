@@ -30,6 +30,12 @@ button#menu-btn {
     order: 3;
 }
 
+.thunk-logo a {
+    display: block;
+    width: 170px;
+    height: 52px;
+}
+
 h2 {
     font-size: 32px;
     margin-bottom: 30px;
