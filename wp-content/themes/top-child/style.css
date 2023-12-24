@@ -759,15 +759,15 @@ position:relative;
   float: right;
 }
 /* mhdrfour  */
-.mhdrfour .main-header-col1{
+/* .mhdrfour .main-header-col1{
   width: 15%;
-}
-.mhdrfour .main-header-col2{
-  width: 65%;
-}
-.mhdrfour .main-header-col3{
+} */
+/* .mhdrfour .main-header-col2{
+  width: 75%;
+} */
+/* .mhdrfour .main-header-col3{
   width: 15%;
-}
+} */
 .mhdrfour .below-header-col1{
   width: 85%;
   display: flex;
