@@ -6,7 +6,7 @@
 }
 
 .mhdrfour .main-header-col3 {
-    width: 100%;
+    width: 100% !important;
     order: 1;
 }
 
