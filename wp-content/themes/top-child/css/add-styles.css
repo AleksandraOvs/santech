@@ -13,7 +13,9 @@
 .mhdrfour .main-header-col1 {
     width: 15%;
     order: 2;
+    padding: 0;
 }
+
 
 .mhdrfour .main-header-col2 {
     width: 70%;
