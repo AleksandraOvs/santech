@@ -682,8 +682,8 @@ position:relative;
 .site-title span a{
   color: #fff;
 }
-.top-store-menu > li > a{
-  color: #666;
+.top-store-menu > li > a {
+  color: #1a1a1a !important;
 }
 /*below header special css*/
 .below-header-bar{
