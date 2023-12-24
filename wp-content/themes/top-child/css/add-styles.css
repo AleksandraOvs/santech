@@ -392,7 +392,7 @@ div#popup-callback button svg path {
 } */
 
 .top-store-menu, .top-store-menu li {
-    text-align: right;
+    text-align: left;
 }
 
 .lang-item a span {
