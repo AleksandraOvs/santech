@@ -1,5 +1,23 @@
+.main-header-bar.thnk-col-3 {
+    flex-wrap: wrap;
+}
 .top-store-menu > li > a {
     padding: 0 7px !important;
+}
+
+.mhdrfour .main-header-col3 {
+    width: 100%;
+    order: 1;
+}
+
+.mhdrfour .main-header-col1 {
+    width: 15%;
+    order: 2;
+}
+
+.mhdrfour .main-header-col2 {
+    width: 70%;
+    order: 3;
 }
 
 h2 {
@@ -350,6 +368,7 @@ div#popup-callback button svg path {
 
 .main-header-bar.thnk-col-3 {
     justify-content: space-between !important;
+    flex-wrap:wrap;
 }
 
 /* .main-header-bar.thnk-col-3 .main-header-col3 {
