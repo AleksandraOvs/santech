@@ -1,3 +1,8 @@
+a:focus, button:focus, span:focus, .search-close-btn:focus, #search-button:focus, #product_cat:focus, input:focus, input[type="submit"]:focus, .menu-toggle .menu-btn:focus, #search-button:focus {
+    outline: none;
+    text-decoration: none;
+}
+
 .main-header-bar.thnk-col-3 {
     flex-wrap: wrap;
 }
